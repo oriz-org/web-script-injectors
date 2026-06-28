@@ -36,6 +36,11 @@ export const posthog: ServiceTemplate = {
   },
   cspDirectives: {
     'script-src': ['https://us-assets.i.posthog.com', 'https://eu-assets.i.posthog.com'],
-    'connect-src': ['https://us.i.posthog.com', 'https://eu.i.posthog.com'],
+    'connect-src': [
+      'https://us.i.posthog.com',
+      'https://eu.i.posthog.com',
+      'https://us-assets.i.posthog.com',
+      'https://eu-assets.i.posthog.com',
+    ],
   },
 };

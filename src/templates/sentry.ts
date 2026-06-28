@@ -20,6 +20,11 @@ export const sentry: ServiceTemplate = {
   },
   cspDirectives: {
     'script-src': ['https://browser.sentry-cdn.com'],
-    'connect-src': ['https://*.ingest.sentry.io', 'https://*.ingest.us.sentry.io', 'https://*.ingest.de.sentry.io'],
+    'connect-src': [
+      'https://browser.sentry-cdn.com',
+      'https://*.ingest.sentry.io',
+      'https://*.ingest.us.sentry.io',
+      'https://*.ingest.de.sentry.io',
+    ],
   },
 };

@@ -1,6 +1,6 @@
 {
   "name": "@oriz/web-script-injectors",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Framework-agnostic JS snippet injectors for the oriz fleet with strict env validation and SafeHtml type.",
   "type": "module",
   "main": "dist/index.js",
